@@ -31,7 +31,13 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+        binding.floatingActionButton.setOnClickListener {
+            replaceFragment(Add())
+        }
     }
+
+
 
     private fun replaceFragment (fragment : androidx.fragment.app.Fragment){
         val fragmentManager = supportFragmentManager
