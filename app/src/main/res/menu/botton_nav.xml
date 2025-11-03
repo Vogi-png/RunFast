@@ -7,10 +7,10 @@
         android:icon="@drawable/navigation_home"/>
     <item
         android:id="@+id/objective"
-        android:title="Objective"
+        android:title="Objetivo"
         android:icon="@drawable/navigation_objective"/>
     <item
         android:id="@+id/profile"
-        android:title="Profile"
+        android:title="Perfil"
         android:icon="@drawable/navigation_person"/>
 </menu>

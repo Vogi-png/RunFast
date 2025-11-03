@@ -24,9 +24,10 @@
         android:layout_height="wrap_content"
         android:background="#1E1E1E"
         app:itemIconSize="30dp"
-        app:itemIconTint="#808080"
+        app:labelVisibilityMode="selected"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:itemActiveIndicatorStyle="@null"
         app:menu="@menu/botton_nav" />
 </androidx.constraintlayout.widget.ConstraintLayout>
